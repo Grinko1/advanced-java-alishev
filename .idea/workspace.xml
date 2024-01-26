@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b322e324-f57b-490d-8cc9-870ff57184b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/callable_and_future/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/count_down_latch/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/deadlock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/interupted_thread/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/producer_consumer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/producer_consumer/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/reentrant_lock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/semaphore/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/synchronized_lesson/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/synchronized_lesson/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/thread_pool/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/volatile_example/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/wait_notify/Test.java" afterDir="false" />
+    <list default="true" id="b322e324-f57b-490d-8cc9-870ff57184b7" name="Changes" comment="end multithreading block">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/regex/pattern_and_matcher/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreding/about_threads/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreding/about_threads/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +59,8 @@
     "Application.org.example.multithreding.semaphore.Test.executor": "Run",
     "Application.org.example.multithreding.synchronized_lesson.Test.executor": "Run",
     "Application.org.example.multithreding.thread_pool.Test.executor": "Run",
+    "Application.org.example.regex.Test.executor": "Run",
+    "Application.org.example.regex.pattern_and_matcher.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,13 +73,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/multithreding" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.multithreding.callable_and_future.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreding.deadlock.Test" />
+  <component name="RunManager" selected="Application.org.example.regex.pattern_and_matcher.Test">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.regex.Test2" />
       <module name="java_advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreding.deadlock.*" />
+          <option name="PATTERN" value="org.example.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.multithreding.reentrant_lock.Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreding.reentrant_lock.Test" />
+    <configuration name="org.example.regex.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.regex.Test" />
       <module name="java_advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreding.reentrant_lock.*" />
+          <option name="PATTERN" value="org.example.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.multithreding.semaphore.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreding.semaphore.Test" />
+    <configuration name="org.example.regex.pattern_and_matcher.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.regex.pattern_and_matcher.Test" />
       <module name="java_advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreding.semaphore.*" />
+          <option name="PATTERN" value="org.example.regex.pattern_and_matcher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.regex.pattern_and_matcher.Test" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.org.example.regex.Test" />
         <item itemvalue="Application.org.example.multithreding.callable_and_future.Test" />
         <item itemvalue="Application.org.example.multithreding.interupted_thread.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.org.example.multithreding.semaphore.Test" />
-        <item itemvalue="Application.org.example.multithreding.reentrant_lock.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +158,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706052428955</updated>
     </task>
+    <task id="LOCAL-00001" summary="end multithreading block">
+      <option name="closed" value="true" />
+      <created>1706170792504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706170792504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="end multithreading block" />
+    <option name="LAST_COMMIT_MESSAGE" value="end multithreading block" />
   </component>
 </project>
